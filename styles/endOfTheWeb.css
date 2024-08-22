@@ -1,0 +1,58 @@
+#reachingtheend{
+    background-color: #8A42ED;
+    margin: 0;
+    padding: 40px 40px 40px 40px;
+    text-align: center;
+    border-bottom: solid 0.5px rgba(255, 255, 255, 0.463);
+    border-top: solid 0.5px rgba(255, 255, 255, 0.463);
+    color: white;
+    font-weight: bold;
+}
+
+
+#thanks{
+    height: 500px;
+    background: linear-gradient(to bottom , #8A42ED , #ED28D3);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    box-shadow: 10px 5px 20px white;
+    border-bottom: solid 0.5px rgba(255, 255, 255, 0.463);
+}
+
+#thanksP{
+    width: 500px;
+    font-size: 60px;
+}
+
+#contactsmain{
+    background-color: #ED28D3;
+    box-shadow: 10px 5px 20px white;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 140px 0 80px;
+}
+
+#contacts{
+    display: grid;
+    grid-template-columns: 1fr 100px;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    color: white;
+}
+
+#contactsP{
+    font-size: 40px;
+    width: 800px;
+}
+
+#contactbox{
+    border: solid 4px white;
+    box-shadow: 10px 10px 10px white;
+    text-align: center;
+    align-items: center;
+}

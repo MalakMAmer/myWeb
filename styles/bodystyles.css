@@ -1,0 +1,182 @@
+#musicPart{
+    background:linear-gradient(to bottom,#1C00F0  ,#6E15EB);
+    border-top: solid 0.5px rgba(255, 255, 255, 0.463);
+    border-bottom: solid 0.5px rgba(255, 255, 255, 0.463);
+    color: white;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+#musicP{
+    display: block;
+
+}
+
+#musicA{
+    display: block;
+    text-align: center;
+    color: #6E15EB;
+}
+
+#peek{
+    background-color: #6E15EB;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-self: center;
+    border-radius:  0 0 260px 0;
+    box-shadow: 10px 20px 30px rgba(77, 77, 73, 0.797);
+
+}
+
+#peekimg{
+    size: 200px;
+    height: 300px;
+     padding: 0 60px 0 30px;
+    margin: 0 60px 0 30px;
+    
+}
+
+#peekImg{
+    border-bottom-right-radius: 60px;
+    border: solid 4px white;
+}
+
+#peekP{
+    height: 200px;
+    padding: 0 60px 0 30px;
+    margin: 0 60px 0 30px;
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+#timeS{
+    background:linear-gradient(to bottom ,#6E15EB , #B415EB );
+    border-top: solid 0.5px rgba(255, 255, 255, 0.463);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 820px;
+}
+
+#intime1{
+    color: white;
+    align-items: center;
+}
+
+#timeimg{
+    margin: 60px 0 0 0;
+    padding: 60px 0 0 0;
+}
+
+#timeImg{
+    width: 400px;
+}
+
+#timep{
+  margin: 0;
+  padding: 0;
+}
+
+
+#timeP{
+    margin: 0;
+    padding: 0;
+}
+
+#googleP{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+
+
+h3{
+    font-size: 55px;
+    font-family: 'Courier New', Courier, monospace;
+    width: 1000px;
+    display: inline-block;
+    color: white;
+}
+
+#usefulWebsites{
+    background-color: #B415EB;
+    border-top:  solid 0.5px rgba(255, 255, 255, 0.463);
+    padding: 120px 20px 20px 20px;
+    text-align: center;
+    align-items: center;
+    height: 760px;
+    margin: 0;
+}
+
+
+
+#websitesImgs{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0 0 0;
+    
+}
+
+.webimg{
+    height: 200px;
+    display: inline-block;
+    border: solid 4px white;
+    border-radius: 0 40px 40px 40px;
+    transition: 450ms;
+    transition-property: cursor , box-shadow , height;
+    transition-timing-function: ease-in-out;
+}
+
+#hoveringwebs{
+    font-size: 20px;
+    margin-top: 100px;
+    color: darkmagenta;
+    
+}
+
+.webimg:hover{
+    cursor: pointer;
+    box-shadow: 10px 10px 30px white;
+    height: 220px;
+    
+}
+
+
+
+#maingridFlex{
+    margin: 0;
+}
+
+#gridFlex{
+    background: linear-gradient(to bottom , #B415EB ,#8A42ED);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 40px 0px 60px;
+    height: 700px;
+    border-top: solid 0.5px rgba(255, 255, 255, 0.463);
+    color: white;
+    margin: 0;
+    
+}
+
+#gridfleximg{
+    border: solid 4px white;border-radius: 10px 30px 30px 10px;
+    box-shadow: 10px 10px 30px white;
+}
+
